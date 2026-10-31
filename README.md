@@ -1,8 +1,19 @@
 # BitSwop · Public Rust Showcase
 
-**Non-custodial stablecoin payment infrastructure for commerce.**
+**Crypto and stablecoin payments, with reloadable payment cards on the roadmap.**
 
 [Website](https://bitswop.com) · [Developer](https://github.com/Paul-Insider) · [Legal](legal/README.md)
+
+BitSwop's product vision covers three complementary areas:
+
+| Product area | Scope |
+| --- | --- |
+| Stablecoin payments | Payment infrastructure for merchants and platforms |
+| Cryptocurrency payments | Payment infrastructure extending beyond stablecoins |
+| Reloadable payment card | A planned Visa or Mastercard card funded with stablecoins and cryptocurrencies |
+
+The card offering is part of the product roadmap. This description does not
+announce an issued card or an established Visa or Mastercard partnership.
 
 BitSwop is being developed with a Rust core. This repository presents one
 focused, executable Rust module: exact amounts represented as integer minor
@@ -63,8 +74,10 @@ schedule, production API contract or network-integration readiness is implied.
 
 ## Product direction
 
-BitSwop is designed around merchant-controlled wallets and non-custodial
-payment flows. Product information is available at [bitswop.com](https://bitswop.com).
+BitSwop combines a non-custodial merchant-payment direction for stablecoins and
+cryptocurrencies with a roadmap for reloadable payment cards. The merchant
+architecture description is not a statement about the future card program's
+custody model. Product information is available at [bitswop.com](https://bitswop.com).
 This showcase makes no claim of platform approval, independent security audit
 or production readiness of the sample.
 
