@@ -1,0 +1,13 @@
+[package]
+name = "bitswop-public"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+publish = false
+description = "A focused Rust showcase for exact minor-unit amounts"
+authors = ["Paul Insider"]
+repository = "https://github.com/Paul-Insider/BitSwop-Public"
+homepage = "https://bitswop.com"
+license-file = "LICENSE"
+
+[dependencies]
